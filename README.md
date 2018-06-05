@@ -282,7 +282,7 @@ ___
 ## Что делать, если Новая Вкладка - пустая белая страница
 Например конфликт с New Tab Overrider
 
-browser.newtabpage.enabled = true
+`browser.newtabpage.enabled = true`
 
 [Вверх](#_)
 ___
