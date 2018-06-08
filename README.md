@@ -271,7 +271,11 @@ userContent.css : <br>
 background-image: url('**img.png**') !important;<br>
 
 **Сменить цвет фона** <br>
-(использовать самостоятельно или добавить в код выше).<br>
+(использовать самостоятельно:<br>
+```css
+@-moz-document url("about:newtab"){.activity-stream{background-color:#FFF0E0 !important;}}
+```
+или добавить в код для картинки выше).<br>
 ```css
 background-color:#FFF0E0 !important;
 ```
