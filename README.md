@@ -36,6 +36,7 @@
 
 * [Я слышал, что есть плохое, нехорошее место](#Я-слышал-что-есть-плохое-нехорошее-место)
 
+* [Куда пропало управление кешем](#Куда-пропало-управление-кешем) которое раньше было в настройках?
 ___
 ## userchrome.css и userContent.css
 userchrome.css - используем для настройки интерфейса FF <br>
@@ -430,5 +431,17 @@ Note: this change from "Always Activate" to "Ask to Activate" should be complete
 e10srollout@mozilla.org <br>
 install.rdf: "Staged rollout of Firefox multi-process feature." <br>
 Note: I think this has been in many, many releases by now. <br>
+
+[Вверх](#_)
+___
+
+## Куда-пропало-управление-кешем
+которое раньше было в настройках?<br>
+`about:config`<br>
+`browser.cache.disk.capacity`<br>
+Значение в килобайтах, пример:<br>
+350 MB = 358400 kB<br>
+Конвертер:<br>
+https://www.convertunits.com/from/MB/to/KB<br>
 
 [Вверх](#_)
