@@ -252,17 +252,23 @@ ___
 <a href="http://piccy.info/view3/12381888/3fe85bd55adc9765e57c500890bd2fa8/" target="_blank"><img src="http://i.piccy.info/i9/38469911acf11c36e1640e36594bb2d9/1527972504/16982/1246306/sshot_142_500.jpg" alt="Piccy.info - Free Image Hosting" border="0" /></a><a href="http://i.piccy.info/a3c/2018-06-02-20-48/i9-12381888/486x343-r" target="_blank"><img src="http://i.piccy.info/a3/2018-06-02-20-48/i9-12381888/486x343-r/i.gif" alt="" border="0" /></a> <br>
 
 userContent.css : <br>
-@-moz-document url("about:newtab")<br>
-{<br>
-.activity-stream<br>
-	{<br>
-		background-image: url('https://avatanplus.com/files/resources/mid/56c610b63d727152f5b147ec.png')!important;<br>
-		background-size: 20%!important;<br>
-		background-repeat: no-repeat!important;<br>
-		background-position: right bottom!important;<br>
-		background-attachment: fixed!important;<br>
-	}<br>
-}<br>
+```css
+@-moz-document url("about:newtab")
+{
+.activity-stream
+	{
+	background-image: url('http://picua.org/img/2018-06/08/7xknot8b591c8orodtyb54ph1.png')!important;
+	background-size: 20%!important;
+	background-repeat: no-repeat!important;
+	background-position: right bottom!important;
+	background-attachment: fixed!important;
+	}
+}
+```
+Хочу картинку локально хранить, как?<br>
+Положи картинку в папку chrome, назови img.png (например).<br>
+Адрес картинки, соответственно, будет выглядеть так:<br>
+background-image: url('**img.png**') !important;<br>
 
 [Вверх](#_)
 ___
