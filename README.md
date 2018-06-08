@@ -288,6 +288,8 @@ background-color:#FFF0E0 !important;
 Получить код цвета на палитре: <br>
 https://www.quackit.com/css/css_color_codes.cfm<br>
 
+P.S. Кстати, анимированные .GIF и .APNG тоже подходят.
+
 [Вверх](#_)
 ___
 ## Хочу заменить иконку сайта на Новой Вкладке
