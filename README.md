@@ -39,6 +39,10 @@
 * [Куда пропало управление кешем](#Куда-пропало-управление-кешем) которое раньше было в настройках?
 
 * [Как FF хранит мои пароли](#Как-ff-хранит-мои-пароли) ?
+
+* [Куда пропало управление отдельными куками](#Куда-пропало-управление-отдельными-куками) в 60+ ?
+
+* [Хочу убрать мыльные фавиконы на новой вкладке](#Хочу-убрать-мыльные-фавиконы-на-новой-вкладке) (about:newtab)
 ___
 ## userchrome.css и userContent.css
 userchrome.css - используем для настройки интерфейса FF <br>
@@ -474,10 +478,50 @@ ___
 
 **Совет**:<br>
 Если вы параноик, используйте для хранения важных паролей (напр. для банкинга) что-то стороннее, напр. KeePass.<br>
-А для некритичных аккаунтов - FF с простым мастером.<br>
+А для некритичных аккаунтов - FF с простым мастером. <br>
 
 Статья по теме:<br>
 https://medium.com/russian/защита-личных-данных-пользователя-в-браузерах-b39ad6514cc
 
 [Вверх](#_)
+___
 
+## Куда пропало управление отдельными куками
+...в FF 60+ ?<br>
+
+**Почитать:**<br>
+https://www.ghacks.net/2018/02/26/mozilla-removes-individual-cookie-management-in-firefox-60/<br>
+
+**Где же мне их теперь смотреть и редактировать ?**<br>
+
+- способ 1 (самый простой и удобный ИМХО)<br>
+Открыть страницу:<br>
+`chrome://browser/content/preferences/cookies.xul`<br>
+Добавить её в закладки или запинить во вкладках.<br>
+
+- способ 2<br>
+a) Click on the information button in the Firefox address bar > navigate to "right arrow" > More Information > View Cookies > <br>
+Erase the site name to list all set cookies.<br>
+b) **ИЛИ** > ПКМ на странице любого сайта > Информация о странице > Безопасность > Помотреть куки > Erase the site name to list all set cookies.<br>
+
+- способ 3<br>
+Use the keyboard shortcut Ctrl-Shift-I to open the Developer Tools and switch to the Storage tab <br>
+(enable it under settings if it is not there). This lists only the cookies for the active site.<br>
+
+[Вверх](#_)
+___
+
+## Хочу убрать мыльные фавиконы на новой вкладке
+(about:newtab)
+
+userContent.css : <br>
+```css
+@-moz-document url("about:newtab")
+{
+	.top-site-icon.default-icon { display: none !important; }
+}
+```
+<a href="http://piccy.info/view3/12428550/cce75e9cd530be1768abf718cee6cabc/" target="_blank"><img src="http://i.piccy.info/i9/cddf2d61a95022640c9ef6519e90016f/1529517037/13495/1252707/sshot_208.png" alt="Piccy.info - Free Image Hosting" border="0" /></a><a href="http://i.piccy.info/a3c/2018-06-20-17-50/i9-12428550/296x209-r" target="_blank"><img src="http://i.piccy.info/a3/2018-06-20-17-50/i9-12428550/296x209-r/i.gif" alt="" border="0" /></a>
+
+[Вверх](#_)
+___
