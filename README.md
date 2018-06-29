@@ -514,8 +514,9 @@ b) **ИЛИ** > ПКМ на странице любого сайта > Инфо�
 Use the keyboard shortcut Ctrl-Shift-I to open the Developer Tools and switch to the Storage tab <br>
 (enable it under settings if it is not there). This lists only the cookies for the active site.<br>
 
-P.S. 
-Я просто использую аддон [Cookie AutoDelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/) и не парюсь. 
+**P.S. Аддоны**<br>
+[Cookie AutoDelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/) - авто-удаление печенек, с настройками времени, белых списков и т.д.<br>
+[Cookie Quick Manager](https://addons.mozilla.org/firefox/addon/cookie-quick-manager/) - менеджер, также возвращает возможность просмотра детального списка печенек.
 
 [Вверх](#_)
 ___
