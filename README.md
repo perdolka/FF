@@ -40,7 +40,7 @@
 
 * [Как FF хранит мои пароли](#Как-ff-хранит-мои-пароли) ?
 
-* [Куда пропало управление отдельными куками](#Куда-пропало-управление-отдельными-куками) в 60+ ?
+* [Куда пропало управление отдельными куками](#Куда-пропало-управление-отдельными-куками) в FF 60+ ?
 
 * [Хочу убрать мыльные фавиконы на новой вкладке](#Хочу-убрать-мыльные-фавиконы-на-новой-вкладке) (about:newtab)
 ___
@@ -494,19 +494,28 @@ https://www.ghacks.net/2018/02/26/mozilla-removes-individual-cookie-management-i
 
 **Где же мне их теперь смотреть и редактировать ?**<br>
 
-- способ 1 (самый простой и удобный ИМХО)<br>
+```diff
+- способ 1 - в 61+ убрали!
+```
 Открыть страницу:<br>
 `chrome://browser/content/preferences/cookies.xul`<br>
 Добавить её в закладки или запинить во вкладках.<br>
 
-- способ 2<br>
+```diff
+- способ 2 - в 61+ убрали!
+```
 a) Click on the information button in the Firefox address bar > navigate to "right arrow" > More Information > View Cookies > <br>
 Erase the site name to list all set cookies.<br>
 b) **ИЛИ** > ПКМ на странице любого сайта > Информация о странице > Безопасность > Помотреть куки > Erase the site name to list all set cookies.<br>
 
-- способ 3<br>
+```diff
++ способ 3 - в 61+ (пока) не убрали
+```
 Use the keyboard shortcut Ctrl-Shift-I to open the Developer Tools and switch to the Storage tab <br>
 (enable it under settings if it is not there). This lists only the cookies for the active site.<br>
+
+P.S. 
+Я просто использую аддон [Cookie AutoDelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/) и не парюсь. 
 
 [Вверх](#_)
 ___
