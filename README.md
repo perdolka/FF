@@ -185,9 +185,13 @@ ___
 забрать виндовую рамку окна. <br>
 
 <a href="http://piccy.info/view3/12381880/ac6e560bb9b035c5a1ff84508809e42c/" target="_blank"><img src="http://i.piccy.info/i9/c101b9ad022c721c2c704c44962408ac/1527972376/10174/1246306/sshot_141.png" alt="Piccy.info - Free Image Hosting" border="0" /></a><a href="http://i.piccy.info/a3c/2018-06-02-20-46/i9-12381880/387x63-r" target="_blank"><img src="http://i.piccy.info/a3/2018-06-02-20-46/i9-12381880/387x63-r/i.gif" alt="" border="0" /></a> <br>
-userchrome.css :<br>
+userchrome.css:<br>
 `#TabsToolbar {visibility: hidden !important; margin-block-end: -30px !important;}`<br>
-`#nav-bar {margin-right: 140px !important;} `
+`#nav-bar {margin-right: 140px !important;} `<br>
+FF 66+ :<br>
+`#tabbrowser-tabs {visibility: collapse !important;}` <br>
+`#nav-bar {margin-right: 150px !important;}` <br>
+`#titlebar {margin-bottom: -30px !important;}` <br>
 
 [Вверх](#_)
 ___
