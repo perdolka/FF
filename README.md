@@ -527,7 +527,7 @@ Use the keyboard shortcut Ctrl-Shift-I to open the Developer Tools and switch to
 
 **Аддоны**<br>
 [Cookie AutoDelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/) - авто-удаление печенек, с настройками времени, белых списков и т.д.<br>
-[Cookie Quick Manager](https://addons.mozilla.org/firefox/addon/cookie-quick-manager/) - менеджер, также возвращает возможность просмотра детального списка печенек.
+[Cookie Quick Manager](https://addons.mozilla.org/firefox/addon/cookie-quick-manager/) - менеджер, также возвращает возможность просмотра детального списка печенек.<br>
 [Cookie Manager](https://addons.mozilla.org/en-US/firefox/addon/a-cookie-manager/) - ещё один менеджер. Просмотр, редактирование, удаление и поиск печенек.<br>
 <br>
 [Вверх](#_)
